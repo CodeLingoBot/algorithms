@@ -106,7 +106,7 @@ func (ht *HashTable) find(i int, key string) (*item, error) {
 	return val, nil
 }
 
-// Horner's Method to hash string of length L (O(L))
+// hashCode; Horner's Method to hash string of length L (O(L))
 func hashCode(s string) int {
 	hash := int32(0)
 	for i := 0; i < len(s); i++ {

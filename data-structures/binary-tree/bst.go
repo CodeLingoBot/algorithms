@@ -86,7 +86,7 @@ func (t *Tree) Search(i int) *Node {
 	panic("Node not found")
 }
 
-// returns true if a node with value i was found
+// Delete returns true if a node with value i was found
 // and deleted and returns false otherwise
 func (t *Tree) Delete(i int) bool {
 	var parent *Node
